@@ -133,8 +133,12 @@ will look like the following:
 1. Task 7- To run the local server on port 3000, type
 `npm start`
 you will be able to view the server at http://localhost:3000/risk/YOUR_SENTENCE
-replace YOUR_SENTENCE with any sentence you can think of- it can be any string other than whitespace or an empty string or it wont run.
-If it does run, it will return a count of words from [crash, bump, collide, scratch, smash].
+replace YOUR_SENTENCE with any sentence you can think of- it can be any string other than whitespace or an empty string or it won't run.
+If it does run, it will return a count of words from [crash, bump, collide, scratch, smash], in JSON format. It will return
+`{
+	riskRating: c
+}`
+where `c` is the count of words from an array described above.
 2. Task 6- Type `npm test` on the terminal. This will run tests on the current server I've implemented for Task 7.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
