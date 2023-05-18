@@ -68,7 +68,7 @@
 ## About The Project
 </br>
   <img src="screenshot.jpg" style="width:70vw;height:52.5vw"></img><br/>
-  Mission 3, Task 4 work.</br></br>
+  Mission 3, Task 6, 7 work.</br></br>
 
 </br>
 These tutorials helped me with my work https://www.youtube.com/watch?v=TcvOgwQPsSo, https://www.digitalonus.com/getting-started-with-api-test-automation-using-javascript/ .
