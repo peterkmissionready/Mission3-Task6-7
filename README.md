@@ -81,8 +81,7 @@ These tutorials helped me with my work https://www.youtube.com/watch?v=TcvOgwQPs
 
 * JavaScript
 * NodeJS
-* Mocha
-* Express
+* Jest
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
