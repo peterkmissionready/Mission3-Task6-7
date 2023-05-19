@@ -111,16 +111,16 @@ You should already have NodeJS installed in your computer. If you don't, install
 This should install 4 packages required to host localhost:3000/ on the server, the answer to Task 7.
 
 4. Type 
-`npm install supertest mocha chai --save-dev` on terminal.
-This should install SuperTest, Mocha and Chai required to perform unit testing on local server running at http://localhost:3000/risk, the answer to Task 6.
+`npm install -D jest` on terminal.
+This should install jest required to perform unit testing on local directory, the answer to Task 6.
 
-5. Edit package.json (which was created after you first typed `npm install...` so that the "scripts" variable
+5. Edit package.json (which was created after you first typed `npm install...`) so that the "scripts" variable
 will look like the following:
 
 `...
 "scripts": {
 	"start": "node index.js",
-	"test": "mocha"
+	"test": "jest"
 },
 ...`
 
@@ -139,7 +139,7 @@ If it does run, it will return a count of words from [crash, bump, collide, scra
 	riskRating: c
 }`
 where `c` is the count of words from an array described above.
-2. Task 6- Type `npm test` on the terminal. This will run tests on the current server I've implemented for Task 7.
+2. Task 6- Type `yarn test` on the terminal. This will run tests I've implemented for Task 7.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
