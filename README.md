@@ -101,10 +101,10 @@ You should already have NodeJS installed in your computer. If you don't, install
 
 ### Installation
 
-1. Drag and drop index.js and test.js to a folder of your choice from the downloaded zip file.
+1. Drag and drop the files inside the downloaded zip to a folder of your choice.
 
 2. Type
-`npm init -y` on the current folder, where you the index.js and test.js is located.
+`npm init -y` on the current folder, where you extracted the files.
 
 3. Type
 `npm install express cors lodash uuid` on terminal.
