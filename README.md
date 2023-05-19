@@ -188,7 +188,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - Peter Kim - peterk@missionreadyhq.com
 
-Project Link: [https://github.com/peterkmissionready/Mission0_Assignment](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/peterkmissionready/Mission3-Task6-7](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
