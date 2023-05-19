@@ -138,7 +138,7 @@ If it does run, it will return a count of words from [crash, bump, collide, scra
 	riskRating: c
 }`
 where `c` is the count of words from an array described above.
-2. Task 6- Type `yarn test` on the terminal. This will run tests I've implemented for Task 7.
+2. Task 6- Type `yarn test` on the terminal. This will run tests I've implemented for Task 6.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
