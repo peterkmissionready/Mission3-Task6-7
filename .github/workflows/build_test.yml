@@ -1,0 +1,25 @@
+name: Feature branch Workflow
+on:
+  push: 
+    branches:
+      - feature/*
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Build Application
+        run: npm run build
+
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: npm install
+      - name: Run Unit Tests
+        run: npm test
